@@ -1,0 +1,386 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Curriculum Vitae (English)
+% Lampros P. Katsikas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{style/twentysecondcv} % a4paper for A4 or letterpaper for letter
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Packages & Commands %%%%%%%%%%%%%%%%
+\input{lib/include}
+\input{lib/define}
+\setdefaultlanguage{english}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+\profilepic{figures/me.png}      		% Profile picture
+
+\cvtype{%                                     	% Type of document (e.g., CV)
+	Curriculum Vitae
+}
+\cvname{%                                     	% Your name
+	Lampros P. Katsikas
+}
+\cvjobtitle{%                                 	% Job title/career
+	\vspace{-0.55em}
+	Software Engineer
+}
+\cvdate{%                                     	% Date of birth
+	November 21, 1989
+}
+\cvaddress{%                                  	% Short address/location
+	Paleo Faliro, 175 64 \newline
+	Athens, Greece				%
+}
+\cvnumberphone{                              	% Phone number
+	+30 6944 34 95 58
+}
+\cvsite{}
+\cvmail{%                                     	% E-mail addresses
+	lkatsikas@eurobank.gr
+}
+\cvmailb{
+	katsikas.lampros@gmail.com
+}
+\cvlinkedin{	                                	% LinkedIn
+	/in/lamproskatsikas/
+}
+% \cvgithub{%                                   	% GitHub
+% 	katsikas
+% }
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+\cvtechskills{\profilesection{Technical Skills}{1.35cm}}
+
+\cvtechoverview{\hspace{0.05mm} \large \textbf{Overview}}
+
+\techskills{ 
+~
+	\hspace{-2.5mm}
+	\smartdiagram[bubble diagram]{
+		\textbf{Microservice}\\\textbf{Architecture},
+		\textbf{Cloud Computing},
+		\textbf{CI / CD processes},
+		\textbf{TDD model},
+		\textbf{Agile}\\\textbf{Development}
+	}
+}
+
+\cvtechlang{\large \textbf{Programming}}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{%
+	{\textbullet Java \textbullet Spring /5.7},
+	{\textbullet React Js /5.0},
+	{\textbullet Docker \textbullet Cloud Computing /4.9},
+	{\textbullet Git \textbullet Maven /5.5},
+	{\textbullet Linux \textbullet Bash /4.9}%
+}
+
+\cvtechlangnote{%
+	(*) Progress bars scale from fundamental awareness (left) to expert (right).
+}
+%----------------------------------------------------------------------------------------
+
+
+
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%	 RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+\section{Summary}
+
+Head of Apis and Asset Owner of PSD2 product in  Eurobank Greece. 
+I have been working as a software engineer in various multicultural environments since 2011, using mainly AGILE software development methodology. 
+I have been working as a back-end developer using cutting edge technologies such as Docker, Spring and RabbitMQ in CI/CD environments the last 5 years. 
+I have also experience in client side technologies such as React Js and about 5 years of experience in deployment on Red Hat Kubernetes cluster.
+
+\vspace{1.4em}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\begin{twenty}
+	\twentyplusitem
+		{Oct. 2020}
+		{Present}
+		{Head of APIs/PSD2 - Team Leader e-banking team}
+		{\href{https://www.eurobank.gr/en/group}{Eurobank Ergasias}}
+		{}
+		{%
+			\begin{itemize}
+				\item Asset Owner of APIs - PSD2 product
+				\item Team Leader on e-banking team
+				\begin{itemize}
+					\item Design / Release / Support features for PSD2 product
+					\item Design / Release / Support features for e-banking
+					\item Spring Cloud Gateway experience
+				\end{itemize}
+			\end{itemize}
+			\vspace{0.5em}
+			\underline{Tools}: Java 11, Spring Boot, Spring Cloud Gateway
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{May. 2019}
+		{Oct. 2020}
+		{Senior Software Engineer}
+		{\href{https://www.eurobank.gr/en/group}{Eurobank Ergasias}}
+		{}
+		{%
+			\begin{itemize}
+				\item Java back-end senior software engineer working for e-banking product
+				\item Java back-end senior software engineer working for PSD2 / APIs services
+				\begin{itemize}
+					\item Berlin Group - PSD2 Access to Bank Accounts
+					\item Back-end development using Spring platform (Spring Boot, Spring Cloud, Spring Integration, Prometheus)
+					\item Experience with CI/CD Jenkins pipelines
+				\end{itemize}
+			\end{itemize}
+			\vspace{0.5em}
+			\underline{Tools}: Linux, Java 11, Spring Boot, Spring Data, Rabbit MQ, Spring Integration, Jenkins
+			\vspace{1.0em}
+		}	
+	\twentyplusitem
+		{Dec. 2016}
+		{May. 2019}
+		{Software Engineer}
+		{\href{https://www.eurobank.gr/en/group}{Eurobank Ergasias}}
+		{}
+		{%
+			\begin{itemize}
+				\item Team member of the e-banking product. \href{https://ebanking.eurobank.gr}{E-banking Eurobank}
+				\item Full stack developer using state of the art industrial solutions of a Spring Java-based back-end system and React Js front-end
+				\begin{itemize}
+					\item Front-end development using webpack, react, redux, router technologies
+					\item Back-end development using Spring platform (Spring Cloud, Spring Integration)
+					\item Integration with queueing systems - RabbitMQ
+					\item Deployment and support on Red Hat private Cloud.
+					\item Maven, Git and Jenkins tooling for CI/CD 
+				\end{itemize}
+			\end{itemize}
+			\vspace{0.5em}
+			\underline{Tools}: Linux, Java 8, Spring Boot, Spring integration, Rabbit MQ, React js.
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{May. 2016}
+		{Dec. 2016}
+		{Software Engineer}
+		{\href{https://www.agileactors.com/}{Agile Actors | Camelot global} (External partner at \href{https://www.eurobank.gr/en/group}{Eurobank Ergasias})}
+		{}
+		{%
+			\begin{itemize}
+				\item Team member of the Eurobank ESB middleware.
+				\item Java developer in Enterprise Service Bus architecture deployed on JBoss Enterprise Application Server
+				\item Modernisation of the existing infrastructure. Migration from CVS to Git. Major upgrade to latest JBoss Enterprise Application Server
+			\end{itemize}%
+			\vspace{0.5em}
+			\underline{Tools}: Linux, Java, Service oriented Architecture, Datasources, Web Services, JBoss EAP.
+			\vspace{1.0em}
+		}
+\end{twenty}
+
+\newpage     % Start a new page
+\makeprofile % Print the sidebar
+
+\vspace{1.4em}
+
+\begin{twenty}
+	\twentyplusitem
+		{Jul. 2015}
+		{Apr. 2016}
+		{Military service}
+		{\href{https://www.haf.gr/en/}{Hellenic Air Force}}
+		{}
+		{%
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{Jul. 2012}
+		{Jul. 2015}
+		{Junior Software Engineer and Research Assistant}
+		{\href{http://scan.di.uoa.gr/}{NKUA SCAN Lab}}
+		{}
+		{%
+			\begin{itemize}
+				\item Software development in the context of a private research contract between Huawei Technologies Co., Ltd and the University of Athens. 
+				\item Team member of the Greenhouse (Wireless Sensor Network) trial in the context of the EU-funded FI-PPP SmartAgriFood project.
+				\begin{itemize}
+					\item Implemented authentication, user management, weather reporting, sensor monitoring, and smart notification applications.
+					\item Implemented front-end services using portlets.
+				\end{itemize}%
+				\item Designed and implemented node clustering and communication schemes for vehicular ad-hoc networks.
+			\end{itemize}%
+			\vspace{0.5em}
+			\underline{Tools}: Linux, Lifeay Portal, HTML, CSS, Javascript/jQuery, Spring MVC, Spring Data Access, Spring Security, Spring Mobile, C++, Python, SUMO traffic simulator.
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{Sep. 2011}
+		{Aug. 2012}
+		{Junior Software Engineer and Research Assistant}
+		{\href{https://www.ics.forth.gr/}{ICS FORTH Crete}}
+		{}
+		{
+			\begin{itemize}
+				\item Experimented with programmable Universal Software Radio Peripheral (USRP) devices.
+				\item Implemented a Digital Video Broadcasting - Terrestrial (DVB-T) receiver using the GNU Radio platform.
+			\end{itemize}
+			\vspace{0.5em}
+			\underline{Tools}: Linux, C, Python, GNU Radio, and Git.
+		}
+\end{twenty}
+
+\vspace{2.0em}
+
+%----------------------------------------------------------------------------------------
+%	 CERTIFICATES
+%----------------------------------------------------------------------------------------
+\section{Certificates}
+\linebreak
+\begin{twenty}
+	\twentyitem{2019}{Building Scalable Java Microservices with Spring Boot and Spring Cloud}{}{\link[Coursera]{certs/Spring-Microservices.pdf}}
+	
+	\twentyitem{2019}{Getting Started with Google Kubernetes Engine}{}{\link[Coursera]{certs/GoogleCloud.pdf}}
+	
+	\twentyitem{2018}{Quality Software Developer Foundation Certificate in Maintainability}{}{\link[PeopleCert]{certs/QualitySoftware.pdf}}
+	
+\end{twenty}
+
+\vspace{1.2em}
+
+%----------------------------------------------------------------------------------------
+%	 e-learning
+%----------------------------------------------------------------------------------------
+\section{e-Learning}
+\linebreak
+\begin{twenty}
+
+	\twentyitem{2019 \phantom{ }}{Udemy}{}{Web development course attendance}
+	
+	\twentyitem{2018 \phantom{ }}{Coursera }{}{Course for Google Cloud, Kubernetes and Spring Boot Microservices}
+
+	\twentyitem{2017 - 2018 \phantom{ }}{Pluralsight }{}{Numerous sessions of courses for software development}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\linebreak
+\begin{twenty}
+
+	\twentyitem{Oct. 2012 - Dec. 2015 \phantom{ }}{M.Sc. in Telecommunication Systems and Networks}{}{National and Kapodistrian University of Athens, \\ School of Science, \\ Department of Informatics and Telecommunications.}
+	\twentyitem{Oct. 2007 - Jun. 2012 \phantom{ }}{B.Sc. in Computer Science}{}{University of Crete, \\ School of Sciences and Engineering, \\ Department of Computer Science.}
+	
+\end{twenty}
+
+
+\newpage     % Start a new page
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 LANGUAGES
+%----------------------------------------------------------------------------------------
+\section{Languages}
+\linebreak
+\begin{twenty}
+
+	\twentyitem{Greek \phantom{ }}{Native speaker \vspace{-0.5em}}{}{\vspace{-0.5em}}
+
+	\twentyitem{English \phantom{ }}{Certificate of Lower in English}{}{University of Cambridge \vspace{-0.5em}}
+
+	\twentyitem{French \phantom{ }}{Diplome d' Etudes en Langue Fran\c{c}aise (DELF) 1\textsuperscript{nd} Degree (A1-A4)}{}{French Institute, Greece}
+
+\end{twenty}
+
+\vspace{1.2em}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+\linebreak
+\begin{twenty}
+	\twentyitem{Jun. 2014 - Jun. 2015 \phantom{ }}{\link[NS-3]{https://www.nsnam.org}}{}{Discrete-event network simulator for Internet systems}
+
+	\twentyitem{Apr. 2014 - Oct. 2014 \phantom{ }}{\link[METIS]{https://metis2020.com}}{}{Mobile and wireless communications}
+
+	\twentyitem{Apr. 2013 - Apr. 2014 \phantom{ }}{\link[FIspace]{https://www.fispace.eu}}{}{Business-to-business (B2B) collaboration platform.}
+\end{twenty}
+
+\vspace{1.2em}
+
+%----------------------------------------------------------------------------------------
+%	 THESES
+%----------------------------------------------------------------------------------------
+\section{Theses}
+\linebreak
+\begin{twenty}
+
+	\twentyitem{2015}{``Clustering algorithms in Vehicular Ad-hoc Networks - Design and Performance Evaluation"}{}{\link[Master Thesis]{theses/Thesis_Final.pdf}}
+	
+	\twentyitem{2012}{``Implementation of DVB-T receiver using USRP device in Gnuradio environment"}{}{\large Bachelor Thesis: \\ University of Crete, Computer Science Department}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 HONORS & AWARDS
+%----------------------------------------------------------------------------------------
+\section{Distinctions and Awards}
+\linebreak
+\begin{twenty}
+
+	\twentyitem{2011}{Undergraduate scholarship}{}{Research and Technology Institute of Computer Science (ICS-FORTH)}
+	
+\end{twenty}
+
+\if \SHORT 0
+\newpage     % Start a new page
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Conference Publications}
+\linebreak
+\begin{twenty}
+	
+	\twentyitem{2015}{``Implementing clustering for vehicular ad-hoc networks in ns-3''}{}{Lampros Katsikas, Konstantinos Chatzikokolakis and Nancy Alonistioti, WNS3 '15 Proceedings of the 2015 Workshop on ns-3, Barcelona, Spain, May 13-14 2015.}{}
+	\twentyitem{2015}{``Management and control applications in Agriculture domain via a Future Internet Business-to-Business platform''}{}{Sokratis Barmpounakis, Alexandros Kaloxylos, Aggelos Groumas, Lampros Katsikas, Vasileios Sarris, Konstantina Dimtsa, Fabiana Fournier, Eleni Antoniou, Nancy Alonistioti and Sjaak Wolfert, Information Processing in Agriculture, Volume 2, Issue 1, Pages 51-63, May 2015.}{}
+	\twentyitem{2014}{``[ELSEVIER] A cloud-based Farm Management System: Architecture and implementation}{}{Alexandros Kaloxylos, Aggelos Groumas, Vassilis Sarris, Lampros Katsikas, Panagis Magdalinos, Eleni Antoniou, Zoi Politopoulou, Sjaak Wolfert, Christopher Brewster, Robert Eigenmann, Carlos Maestre Terol, Computers and Electronics in Agriculture, Volume 100, Pages 168-179, January 2014.}{}
+	
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Tutoring
+%----------------------------------------------------------------------------------------
+\section{Tutoring}
+\linebreak
+\begin{twenty}
+
+	\twentyitem{2013 - 2014 \phantom{ }}{Assistant tutor}{}{Tutor in the context of the undergraduate course Web Application Technologies.}
+
+	\twentyitem{2013 \phantom{ }}{Assistant tutor}{}{Tutor in the context of the undergraduate course Networking Systems.}
+
+\end{twenty}
+
+\fi
+
+\end{document} 

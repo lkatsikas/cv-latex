@@ -1,0 +1,88 @@
+%% Fonts
+% \setmainfont{ClearSans}
+% \setsansfont{Arial}
+
+% \newfontfamily\greekfont[Script=Greek]{Linux Libertine O}
+% \newfontfamily\greekfontsf[Script=Greek]{Linux Libertine O}
+
+% \newfontfamily\greekfont[Scale=MatchUppercase,Ligatures=TeX]{clearsans}
+% \newfontfamily\greekfont[Scale=MatchUppercase,Ligatures=TeX]{lato-hairline}
+% \newfontfamily\greekfont[Scale=MatchUppercase,Ligatures=TeX]{latinmodern-math}
+
+
+%% Coloring the links!
+\definecolor{SeaGreen}    {RGB}{60,  179, 113}
+\definecolor{OliveGreen}  {RGB}{107, 142, 35}
+\definecolor{ForestGreen} {RGB}{34,  139, 34}
+\definecolor{YellowOrange}{RGB}{255, 204, 0}
+
+\definecolor{DarkBlue}     {rgb}{0.0,  0.0,  0.2}
+\definecolor{HeraldBlue}   {rgb}{0.0,  0.0,  0.8}
+\definecolor{HeraldRed}    {rgb}{0.51, 0.12, 0.15}
+\definecolor{HeraldRed2}   {rgb}{0.81, 0.12, 0.15}
+\definecolor{HeraldGray}   {rgb}{0.2,  0.2,  0.5}
+\definecolor{HeraldGreen}  {rgb}{0.0,  0.4,  0.0}
+
+\definecolor{pblue}         {HTML} {0395DE}
+\definecolor{gblue}         {HTML} {2E7CDE}
+\definecolor{mainblue}      {HTML} {0E5484}
+\definecolor{materialblue}  {HTML} {2196F3}
+\definecolor{materialindigo}{HTML} {3F51B5}
+\definecolor{materialpurple}{HTML} {9C27B0}
+
+
+% Indicates long or short version of the CV
+% This option may be passed as a command line argument
+\ifdefined\SHORT
+\else
+	\def\SHORT{0}
+\fi
+
+\newcommand{\refscolor} {blue}
+\newcommand{\linkscolor}{HeraldRed}
+\newcommand{\urlscolor} {gblue}
+
+\hypersetup{
+	colorlinks,breaklinks,
+	linkcolor   = \linkscolor,
+	urlcolor    = \urlscolor,
+	citecolor   = \refscolor,
+	anchorcolor = black
+}
+
+
+%% My custom commands
+\newcommand*{\eg}{e.g.,\@\xspace}
+\newcommand*{\ie}{i.e.,\@\xspace}
+\newcommand*{\etc}{etc.\@\xspace}
+\newcommand*{\addthinspace}{\hskip0.16667em\relax}
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+
+
+%% Consistent enumeration
+\def\first {$(i)$\xspace}
+\def\second{$(ii)$\xspace}
+\def\third {$(iii)$\xspace}
+\def\fourth{$(iv)$\xspace}
+\def\fifth {$(v)$\xspace}
+\def\sixth {$(vi)$\xspace}
+
+
+%% Smart paragraphs, opening/closing for letters
+\newcommand{\smartparagraph}[1]{\noindent{\textbf{#1}}\ }
+\newcommand{\opening}[1]{\noindent{#1}\ \vspace{+0.5em}}
+\newcommand{\closing}[1]{\vspace{+0.5em} \noindent{#1}\ }
+
+
+%% Macro for HTTP links
+\newcommand*{\link}[2][]{\href{#2}%
+    {\ifthenelse{\equal{#1}{}}{#2}{#1}}}
+
+
+%% Footnotes with symbols
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+%% Limit hyphenation
+\hyphenpenalty=10000
+\tolerance=2000

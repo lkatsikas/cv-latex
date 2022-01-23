@@ -1,0 +1,332 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Curriculum Vitae (Greek)
+% Lampros P. Katsikas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{style/twentysecondcv} % a4paper for A4 or letterpaper for letter
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Packages & Commands %%%%%%%%%%%%%%%%%%%%%%%%
+\input{lib/include}
+\input{lib/define}
+\newfontfamily\greekfont[Script=Greek]{Linux Libertine O}
+\newfontfamily\greekfontsf[Script=Greek]{Linux Libertine O}
+\setdefaultlanguage{greek}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+\profilepic{figures/me.png}      % Profile picture
+
+\cvtype{%                                     % Type of document (e.g., CV)
+	Βιογραφικό Σημείωμα
+}
+\cvname{%                                     % Your name
+	Λάμπρος Π. Κατσίκας
+}
+\cvjobtitle{%                                 % Job title/career
+	Μηχανικός Λογισμικού
+}
+\cvdate{%                                     % Date of birth
+	Νοέμβριος 21, 1989
+}
+\cvaddress{%                                  % Short address/location
+	Τερψιχόρης 56, Παλαιό Φάληρο, \newline
+	ΤΚ 175 62, Αττική, Ελλάδα%
+}
+\cvnumberphone{%                              % Phone number
+	+30 6944 34 95 58
+}
+% \cvsite{}
+\cvmail{%                                     % E-mail addresses
+	lkatsikas@eurobank.gr
+}
+\cvmailb{%
+	katsikas.lampros@gmail.com
+}
+\cvlinkedin{%                                 % LinkedIn
+	/in/lamproskatsikas/
+}
+% \cvgithub{%                                 % GitHub
+% 	katsikas
+% }
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+\cvtechskills{\vspace{-0.05mm} \profilesection{Δεξιότητες}{3.0cm}}
+
+\cvtechoverview{\vspace{-0.6mm} \hspace{0.01mm} \large \textbf{Επισκόπηση}}
+
+\techskills{ 
+~
+	\hspace{-3mm}
+	\smartdiagram[bubble diagram]{
+		\textbf{Microservice}\\\textbf{Architecture},
+		\textbf{Cloud}\\\textbf{Computing},
+		\textbf{CI/CD}\\\textbf{Processes},
+		\textbf{Test-driven}\\\textbf{Development},
+		\textbf{Agile}\\\textbf{Development}
+	}
+}
+
+\cvtechlang{\vspace{1.0mm} \large \textbf{Προγραμματισμός}}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{%
+	{\textbullet Linux \textbullet Bash /4.9},
+	{\textbullet Cloud Computing \textbullet Docker /4.9},
+	{\textbullet React Js \textbullet C \textbullet C++ \textbullet Python /5.0},
+	{\textbullet Java \textbullet Spring \textbullet Git \textbullet Maven /5.7}%
+}
+
+\cvtechlangnote{%
+	(*) Η κλίμακα γνώσης εκτείνεται από υποτυπώδη (αριστερά) έως πλήρη (δεξιά) γνώση.
+}
+%----------------------------------------------------------------------------------------
+
+
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%	 RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+\section{Σύνοψη}
+
+Έχω εργαστεί ως μηχανικός λογισμικού σε διάφορα πολυπολιτισμικά περιβάλλοντα εργασίας, επιδεικνύοντας την ικανότητα εποικοδομητικής συνεργασίας με ομάδες ανθρώπων καθώς και την ικανότητα τήρησης αυστηρών προθεσμιών.
+Έχω ισχυρό γνωσιακό υπόβαθρο σε συστήματα front-end και back-end με χρήση τεχνολογιών αιχμής, όπως Docker, Spring, και React JS μέσω agile continuous development and integration (CD/CI) διαδικασιών.
+Επιπλέον, από το 2016 εργάζομαι σε βιομηχανικά έργα ανάπτυξης εφαρμογών με χρήση τεχνολογιών Red Hat private Cloud και JBoss Enterprise Application Server.
+
+
+\vspace{1.0em}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Εμπειρία}
+
+\begin{twenty}
+	\twentyplusitem
+		{Δεκ. 2016}
+		{\phantom{ } \phantom{ }Σήμερα}
+		{Μηχανικός Λογισμικού}
+		{\href{https://www.eurobank.gr/en/group}{Eurobank Ergasias}}
+		{}
+		{%
+			\begin{itemize}
+				\item Ηγούμαι μιας εκ των ομάδων υλοποίησης του \href{https://ebanking.eurobank.gr}{Eurobank e-banking}.
+				\item Full-stack προγραμματιστής με χρήση καινοτόμων βιομηχανικών τεχνολογιών:
+				\begin{itemize}
+					\item Front-end ανάπτυξη λογισμικού με χρήση webpack, React, Redux.
+					\item Back-end ανάπτυξη λογισμικού με χρήση Spring platform.
+					\item Ενσωμάτωση μέσω συστημάτων ουρών.
+					\item Docker και microservices αρχιτεκτονικές.
+					\item Ανάπτυξη λογισμικού σε περιβάλλον Red Hat private Cloud.
+					\item Maven, Git, και Jenkins για αυτοματοποιημένο έλεγχο και ενσωμάτωση πηγαίου κώδικα.
+				\end{itemize}
+			\end{itemize}
+			\vspace{0.5em}
+			\underline{Τεχνολογίες}: Linux, Java 8, Spring (Boot, Cloud, και Integration), React, Redux, webpack, Red Hat private Cloud, Rabbit MQ, και agile CI/CD.
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{Μαι. 2016}
+		{Νοε. 2016}
+		{Μηχανικός Λογισμικού}
+		{\href{https://www.agileactors.com/}{Agile Actors | Camelot global} (Συνεργάτης της \href{https://www.eurobank.gr/en/group}{Eurobank})}
+		{}
+		{%
+			\begin{itemize}
+				\item Μέλος της ομάδας υλοποίησης του συστήματος ESB middleware.
+				\item Back-end ανάπτυξη λογισμικού και διαχείριση με χρήση JBoss EAP.
+			\end{itemize}%
+			\vspace{0.5em}
+			\underline{Τεχνολογίες}: Linux, Java, Service-oriented Architecture, Datasources, JBoss EAP, και Web Services.
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{\phantom{ } Ιολ. 2015}
+		{Απρ. 2016}
+		{Στρατιωτική Θητεία}
+		{\href{https://www.haf.gr/en/}{Ελληνική Αεροπορία}}
+		{}
+		{%
+			Βοηθός ελέγχου εναέριας κυκλοφορίας.
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{\phantom{ } Ιολ. 2012}
+		{\phantom{ } Ιολ. 2015}
+		{Μηχανικός Λογισμικού - Ερευνητής}
+		{\href{http://scan.di.uoa.gr/}{NKUA SCAN Lab}}
+		{}
+		{%
+			\begin{itemize}
+				\item Ανάπτυξη λογισμικού στα πλαίσια ερευνητικού συμβολαίου μεταξύ της Huawei Technologies Co. Ltd και του Πανεπιστημίου της Αθήνας.
+				\item Μέλος της ομάδας υλοποίησης του Greenhouse (Wireless Sensor Network) trial στα πλαίσια του Ευρωπαϊκού έργου FI-PPP SmartAgriFood:
+				\begin{itemize}
+					\item Υλοποίηση εφαρμογών authentication/authorisation, user management, weather reporting, sensor monitoring, and smart notification.
+					\item Υλοποίηση υπηρεσιών front-end με χρήση portlets.
+				\end{itemize}%
+				\item Σχεδιασμός και υλοποίηση τεχνικών συσταδοποίησης (clustering) και επικοινωνίας κόμβων για ad-hoc δίκτυα οχημάτων.
+				\item Σχεδιασμός και υλοποίηση βελτιστοποιήσεων σε πολλαπλά επίπεδα της στοίβας πρωτοκόλλων δικτύου LTE (4G).
+			\end{itemize}%
+			\vspace{0.5em}
+			\underline{Τεχνολογίες}: Linux, Lifeay Portal, HTML, CSS, Javascript/jQuery, Spring MVC, Spring Data Access, Spring Security, Spring Mobile, C++, Python, και SUMO traffic simulator.
+			\vspace{1.0em}
+		}
+	\twentyplusitem
+		{\phantom{ }Σεπ. 2011}
+		{\phantom{\addthinspace}Αυγ. 2012}
+		{Μηχανικός Λογισμικού - Ερευνητής}
+		{\href{https://www.ics.forth.gr/}{ICS FORTH Crete}}
+		{}
+		{%
+			\begin{itemize}
+				\item Πειραματισμός με επαναπρογραμματιζόμενες συσκευές Universal Software Radio Peripheral (USRP).
+				\item Υλοποίηση δέκτη Digital Video Broadcasting - Terrestrial (DVB-T) με χρήση της πλατφόρμας GNU Radio.
+			\end{itemize}%
+			\vspace{0.5em}
+			\underline{Τεχνολογίες}: Linux, C, Python, GNU Radio, και Git.
+		}
+\end{twenty}
+
+\newpage     % Start a new page
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Εκπαίδευση}
+
+\begin{twenty}
+	\twentyitem{Οκτ. 2012 - Δεκ. 2015 \phantom{ }}{Μεταπτυχιακό στα Τηλεπικοινωνιακά Συστήματα και Δίκτυα}{}{Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών, \\ Σχολή Θετικών Επιστημών, \\ Τμήμα Πληροφορικής και Τηλεπικοινωνιών.}
+
+	\twentyitem{Οκτ. 2007 - Ιον. 2012 \phantom{ }}{Πτυχίο στην Επιστήμη της Πληροφορικής}{}{Πανεπιστήμιο Κρήτης, \\ Σχολή Θετικών και Τεχνολογικών Επιστημών, \\ Τμήμα Επιστήμης Υπολογιστών.}
+\end{twenty}
+
+\vspace{-0.5em}
+
+%----------------------------------------------------------------------------------------
+%	 LANGUAGES
+%----------------------------------------------------------------------------------------
+\section{Γλώσσες}
+
+\begin{twenty}
+	\twentyitem{Ελληνικά \phantom{ }}{Μητρική γλώσσα \vspace{-0.5em}}{}{\vspace{-0.5em}}
+	
+	\twentyitem{\phantom{ } Αγγλικά \phantom{ }}{Certificate of Lower in English}{}{University of Cambridge \vspace{-0.5em}}
+
+	\twentyitem{\phantom{ } Γαλλικά \phantom{ }}{Diplome d' Etudes en Langue Fran\c{c}aise (DELF) 1\textsuperscript{nd} Degree (A1-A4)}{}{Γαλλικό Ινστιτούτο, Ελλάδα}
+\end{twenty}
+
+\vspace{-0.5em}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Έργα}
+
+\begin{twenty}
+	\twentyitem{\phantom{ } Ιον. 2014 - Ιον. 2015 \phantom{ }}{\link[NS-3]{https://www.nsnam.org}}{}{Δικτυακός προσομοιωτής διακριτού χρόνου.}
+
+	\twentyitem{Απρ. 2014 - Οκτ. 2014 \phantom{ }}{\link[METIS]{https://metis2020.com}}{}{Κινητές και ασύρματες επικοινωνίες.}
+
+	\twentyitem{Απρ. 2013 - Απρ. 2014 \phantom{ }}{\link[FIspace]{https://www.fispace.eu}}{}{Business-to-business (B2B) πλατφόρμα.}
+\end{twenty}
+
+\vspace{-0.5em}
+
+%----------------------------------------------------------------------------------------
+%	 THESES
+%----------------------------------------------------------------------------------------
+\section{Διατριβές}
+
+\begin{twenty}
+	\twentyitem{2015}{Μεταπτυχιακή Διατριβή \\ \link[``Clustering algorithms in Vehicular Ad-hoc Networks - Design and Performance Evaluation'']{theses/Thesis_Final.pdf}}{}{Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών, \\ Σχολή Θετικών Επιστημών, \\ Τμήμα Πληροφορικής και Τηλεπικοινωνιών.}
+
+	\twentyitem{2012}{Πτυχιακή Διατριβή \\ ``Implementation of DVB-T receiver using USRP device in Gnuradio environment''}{}{Πανεπιστήμιο Κρήτης, \\ Σχολή Θετικών και Τεχνολογικών Επιστημών, \\ Τμήμα Επιστήμης Υπολογιστών.}
+\end{twenty}
+
+\vspace{-0.5em}
+
+%----------------------------------------------------------------------------------------
+%	 CERTIFICATES
+%----------------------------------------------------------------------------------------
+\section{Πιστοποιήσεις}
+
+\begin{twenty}
+	\twentyitem{2018}{Coursera}{}{\link[Getting Started with Google Kubernetes Engine.]{certs/GoogleCloud.pdf}}
+
+	\twentyitem{2018}{PeopleCert}{}{\link[Quality Software Developer Foundation Certificate in Maintainability.]{certs/QualitySoftware.pdf}}
+\end{twenty}
+
+\vspace{-0.5em}
+
+%----------------------------------------------------------------------------------------
+%	 HONORS & AWARDS
+%----------------------------------------------------------------------------------------
+\section{Διακρίσεις και Βραβεία}
+
+\begin{twenty}
+	\twentyitem{2011}{Ακαδημαϊκή Υποτροφία}{}{Ινστιτούτο Πληροφορικής, Ίδρυμα Τεχνολογίας και Έρευνας (ΙΤΕ).}
+\end{twenty}
+
+\vspace{-0.5em}
+
+%----------------------------------------------------------------------------------------
+%	 e-learning
+%----------------------------------------------------------------------------------------
+\section{e-Learning}
+
+\begin{twenty}
+	\twentyitem{2019 \phantom{ }}{Udemy}{}{Μαθήματα Web development.}
+
+	\twentyitem{2018 \phantom{ }}{Coursera }{}{Μαθήματα Google Cloud και Kubernetes.}
+
+	\twentyitem{2017 - 2018 \phantom{ }}{Pluralsight }{}{Μαθήματα ανάπτυξης λογισμικού. \vspace{-1.0em}}
+\end{twenty}
+
+
+\if \SHORT 0
+
+\newpage     % Start a new page
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Δημοσιεύσεις}
+
+\begin{twenty}
+	\twentyitem{\phantom{ }2015}{``Implementing clustering for vehicular ad-hoc networks in ns-3''}{}{Lampros Katsikas, Konstantinos Chatzikokolakis and Nancy Alonistioti, Proceedings of the 2015 Workshop on ns-3 (WNS3), Barcelona, Spain, May 13-14 2015.}{}
+
+	\twentyitem{2015 \phantom{ }}{``Management and control applications in Agriculture domain via a Future Internet Business-to-Business platform''}{}{Sokratis Barmpounakis, Alexandros Kaloxylos, Aggelos Groumas, Lampros Katsikas, Vasileios Sarris, Konstantina Dimtsa, Fabiana Fournier, Eleni Antoniou, Nancy Alonistioti and Sjaak Wolfert, Information Processing in Agriculture, Volume 2, Issue 1, Pages 51-63, May 2015.}{}
+
+	\twentyitem{2014 \phantom{ }}{``A cloud-based Farm Management System: Architecture and implementation''}{}{Alexandros Kaloxylos, Aggelos Groumas, Vassilis Sarris, Lampros Katsikas, Panagis Magdalinos, Eleni Antoniou, Zoi Politopoulou, Sjaak Wolfert, Christopher Brewster, Robert Eigenmann, and Carlos Maestre Terol, Elsevier Computers and Electronics in Agriculture, Volume 100, Pages 168-179, January 2014.}{}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Tutoring
+%----------------------------------------------------------------------------------------
+\section{Διδασκαλία}
+
+\begin{twenty}
+	\twentyitem{2013 - 2014 \phantom{ }}{Προπτυχιακό μάθημα Εφαρμογές Διαδικτύου}{}{Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών, \\ Σχολή Θετικών Επιστημών, \\ Τμήμα Πληροφορικής και Τηλεπικοινωνιών.}
+
+	\twentyitem{2013 \phantom{ }}{Προπτυχιακό μάθημα Δίκτυα I}{}{Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών, \\ Σχολή Θετικών Επιστημών, \\ Τμήμα Πληροφορικής και Τηλεπικοινωνιών.}
+\end{twenty}
+
+\else
+
+\vspace{-1.0em}
+
+\fi
+
+\end{document} 
